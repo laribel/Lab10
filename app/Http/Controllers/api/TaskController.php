@@ -13,4 +13,17 @@ class TaskController extends Controller
         return Task::select('id', 'name')->get();
     }
 
+    public function user(){
+
+        
+    }
+
+
+    public function update(){
+        
+    }
+
+
+
 }
+
